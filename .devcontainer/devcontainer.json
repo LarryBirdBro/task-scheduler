@@ -1,0 +1,15 @@
+{
+  "name": "Nuxt + FastAPI DevContainer",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "esbenp.prettier-vscode",
+    "Vue.volar"
+  ],
+  "forwardPorts": [3000, 8000],
+  "remoteUser": "node"
+}
